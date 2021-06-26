@@ -1,0 +1,15 @@
+.padre-flex{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap-reverse;
+}
+
+.padre-flex > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+}
